@@ -1,0 +1,23 @@
+{
+  "name": "The Blankest Page",
+  "version": "1.0.0",
+  "description": "Can you find a page on the internet with LESS content? Doubt it. Get focused and replace your current flamboyantly distracting New Tab page with a blank one. Also, it's black.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "page_action": {
+	"default_icon": {
+		"16": "images/black16.png",
+		"32": "images/black32.png",
+		"48": "images/black48.png",
+		"128": "images/black128.png"
+	  }
+	},
+	"icons": {
+	  "16": "images/black16.png",
+	  "32": "images/black32.png",
+	  "48": "images/black48.png",
+	  "128": "images/black128.png"
+	},
+  "manifest_version": 2
+}
